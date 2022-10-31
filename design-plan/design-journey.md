@@ -18,14 +18,14 @@ Be clear and concise in your writing. Bullets points are encouraged.
 ### Project (Milestone 1)
 > Which project will you add interactivity to enhance the site's functionality?
 
-Project (TODO: 1 or 2)
+Project 2
 
 
 ### Audience (Milestone 1)
 > Briefly explain your site's audience.
 > Be specific and justify why this audience is a **cohesive** group.
 
-TODO: site's _cohesive_ audience
+The audience for the Ithaca Apple Harvest Festival site is people in Ithaca and the nearby area who are interested in attending the festival but may be less familar with the Commons or the festival. This is a cohesive audience because everyone within it has similar goals regarding navigation, whether walking, driving, biking, or busing, attending the events, and information they will need there. I have chosen to remove vendors from my original audience because they do not share goals consistent with attendees.
 
 
 ### Audience's Goals (Milestone 1)
@@ -33,9 +33,9 @@ TODO: site's _cohesive_ audience
 > Simply list each goal. No need to include the "Design Ideas and Choices", etc.
 > You may adjust the goals if necessary.
 
-- TODO: goal 1
-- TODO: goal 2
-- TODO: ...
+- Access the times and location of the event
+- Learn more beforehand about what will be at Applefest
+- Find navigation, parking, and other relevant local travel information for the festival.
 
 
 ## Interactivity Design (Milestone 1)
@@ -45,9 +45,9 @@ TODO: site's _cohesive_ audience
 > Briefly explain each idea and provide a brief rationale for how the interactivity enhances the site's functionality for the audience.
 > Note: You may find it easier to sketch for brainstorming. That's fine too. Do whatever you need to do to explore your ideas.
 
-- TODO: idea 1
-- TODO: idea 2
-- TODO: ...
+- Interactive google maps map on the navigation page that helps users locate the festival dynamically and in relation to themselves.
+- Create a pop-up when the website is opened that tells users the location and times of the events immediately so they cannot miss it.
+- A slideshow of images that allow users to browse different images and get a better sense of what to expect before visiting the festival.
 
 
 ### Interactivity Design Ideation (Milestone 1)
@@ -55,7 +55,10 @@ TODO: site's _cohesive_ audience
 > Sketch several iterations of your interactivity.
 > Annotate each sketch explaining what happens when a user takes an action. (e.g. When user clicks this, something else appears.)
 
-TODO: idea sketches
+![Interactive Map Sketch](map.jpg)
+![Pop-up Sketch](pop-up.jpg)
+![Slideshow Iterations Number 1 and 2 Sketch](slideshow-1-and-2.jpg)
+![Slideshow Iteration Number 3 Sketch](slideshow-3.jpg)
 
 
 ### Final Interactivity Design (Milestone 1)
@@ -65,7 +68,8 @@ TODO: idea sketches
 > Add annotations to explain what happens when the user takes an action.
 > Include as many sketches as necessary to communicate your design (ask yourself, could another 1300 take these sketches an implement my design?)
 
-TODO: final sketch(es)
+![Final Slideshow Design for Wide](wide-slideshow-design.jpg)
+![Final Slideshow Design for Narrow](narrow-slideshow-design.jpg)
 
 
 ### Interactivity Rationale (Milestone 1)
@@ -73,7 +77,7 @@ TODO: final sketch(es)
 > Provide a brief rationale explaining how your proposed interactivity addresses the goals of your site's audience.
 > This should be about a paragraph. (3-5 sentences)
 
-TODO: design rationale
+My proposed interactivity is the carousel. This will add dynamic photos that can be accessed either through an automated and timed slideshow or by clicking the buttons left and right of the image. The purpose is to give the audience more content in the same amount of space. That is, while the carousel takes up just about the same space as one image, it can hold essentially as many images as the audience needs. Because the festival is such a visual environment, I believe that providing more images will allow my audience to get a better idea of what to expect at Applefest, especially in terms of visualizations of food offerings and vendor stands.
 
 
 ## Interactivity Implementation Plan (Milestone 1)
@@ -81,7 +85,9 @@ TODO: design rationale
 ### Interactivity Planning Sketches (Milestone 1)
 > Produce planning sketches that include all the details another 1300 student would need to implement your interactivity design.
 
-TODO: planning sketches
+
+![Interactivity Slideshow Sketch for Wide](wide-slideshow-plan.jpg)
+![Interactivity Slideshow Sketch for Narrow](narrow-slideshow-plan.jpg)
 
 
 ### Interactivity Pseudocode Plan (Milestone 1)
@@ -89,7 +95,7 @@ TODO: planning sketches
 > Pseudocode is not JavaScript. Please do not put JavaScript code here.
 
 ```
-TODO: pseudocode
+When the #left-button is clicked, add .hidden to the current image and remove .hidden from the previous image in the list. When #right-button is clicked, or after a counter has reached n counts (n to be determined after testing), add .hidden to the current image and remove .hidden from the next image in the list.
 ```
 
 
@@ -97,7 +103,7 @@ TODO: pseudocode
 > In your own words, concisely explain why you believe your interactivity meets the "ambitious" requirement.
 > This should be a few sentences. (1-3 sentences)
 
-TODO: ambitious justification
+The slideshow design is ambitious because it not only incorporates concepts covered in class like buttons to hide and unhide images, but also because it requires a list or list-like structure to create an order to the images. It also goes above and beyond by using a counter to determine when enough time has passed to swap to the next slide on its own.
 
 
 ## Grading (Final Submission)
