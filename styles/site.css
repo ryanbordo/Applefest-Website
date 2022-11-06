@@ -2,6 +2,28 @@ html{
     font-family: sans-serif;
     background-color: #e67f3a;
 }
+.hidden{
+    display: none !important;
+}
+button{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: #71c140;
+    border-radius: 15px;
+    border: black solid 2px;
+    height: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    flex-grow: 1;
+}
+button:hover{
+    cursor:pointer;
+    background-color:#e67f3a;
+}
 .selected-page{
     background-color: #e67f3a;
 }
@@ -16,6 +38,12 @@ header{
 }
 picture, figure{
     margin: auto;
+}
+.primary-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
 }
 header img{
     display: flex;
@@ -45,6 +73,14 @@ aside{
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-left: 30px;
+}
+.slides{
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    flex-grow: 1;
+    margin-left: 0px;
 }
 aside a{
     font-size: 20px;
@@ -97,10 +133,8 @@ nav ul li{
 
 .main img{
     border-radius: 15px;
-    margin: auto;
-    flex-grow: 1;
-    min-width: 100%;
-    max-height: 100%;
+    display: flex;
+    flex: 1;
     width: 100%;
     height: auto;
 }
@@ -119,9 +153,10 @@ dd{
     font-size: 30px;
 }
 .main figure, .main picture{
-    min-width: 100%;
     display: flex;
     flex: 1;
+    margin: auto 0px auto 0px;
+    flex-grow: 15;
 }
 .main ul{
     padding-left:0;
@@ -185,12 +220,7 @@ h5{
         display: flex;
         flex-direction: row;
     }
-    aside{
-        margin-left: 20px;
-    }
-    .primary-text{
-        flex: 1;
-    }
+
     aside a{
         margin-left: auto;
         margin-right: auto;

@@ -77,7 +77,7 @@ The audience for the Ithaca Apple Harvest Festival site is people in Ithaca and 
 > Provide a brief rationale explaining how your proposed interactivity addresses the goals of your site's audience.
 > This should be about a paragraph. (3-5 sentences)
 
-My proposed interactivity is the carousel. This will add dynamic photos that can be accessed either through an automated and timed slideshow or by clicking the buttons left and right of the image. The purpose is to give the audience more content in the same amount of space. That is, while the carousel takes up just about the same space as one image, it can hold essentially as many images as the audience needs. Because the festival is such a visual environment, I believe that providing more images will allow my audience to get a better idea of what to expect at Applefest, especially in terms of visualizations of food offerings and vendor stands.
+My proposed interactivity is the slideshow. This will add dynamic photos that can be accessed either through an automated and timed slideshow or by clicking the buttons left and right of the image. The purpose is to give the audience more content in the same amount of space. That is, while the carousel takes up just about the same space as one image, it can hold essentially as many images as the audience needs. Because the festival is such a visual environment, I believe that providing more images will allow my audience to get a better idea of what to expect at Applefest, especially in terms of visualizations of food offerings and vendor stands.
 
 
 ## Interactivity Implementation Plan (Milestone 1)
@@ -112,7 +112,7 @@ The slideshow design is ambitious because it not only incorporates concepts cove
 > Explain how your design effectively uses affordances, visibility, feedback, and familiarity.
 > Write a large paragraph (4-6 sentences)
 
-TODO: interactivity rationale
+My slideshow design contains significant uses of affordances, visibility, feedback, and familiarity. For affordances, the left and right button change color when hover over and also change the cursor type to indicate that there is a button to press. For visibility, the relevant parts of interactivity, my buttons with dark borders and green background visibily show the audience of potential interactivity. For feedback, there is obvious effect of a user's actions (or lack of action). By clicking on one of the buttons, the user can see that the image changes, but if they don't click, they will see that the slideshow is on a timer and will also change, eventually also finding that the slideshow loops through five images. The design is lastly familiar to my audience, the left and right buttons imply that the images are in order and user are familiar with this design on other slideshows to know that these buttons are previous and next slide buttons.
 
 
 ### Tell Us What to Grade (Final Submission)
@@ -121,28 +121,28 @@ TODO: interactivity rationale
 > Tell us where (what pages) we can find your interactivity and how to use it.
 > **We will only grade what you list here;** if it's not listed, we won't grade it.
 
-TODO: what should we grade
+The interactive slideshow is on the homepage (index.html, or "Apple Harvest Festival") on the right side if wide and under the first paragraph if narrow. The slideshow uses a left (less than sign) and right button (greater than sign) to indicate buttons that move the slideshow to the previous and next slide respectively. Additionally, after 7 seconds, the slideshow will also progress to the next slide. There are five images in the slideshow, and it loops back through them.
 
 
 ### Collaborators (Final Submission)
 > List any persons you collaborated with on this project.
 
-TODO: list your collaborators
+None
 
 
 ### Reference Resources (Final Submission)
 > Please cite any external resources you referenced in the creation of your project.
 > (i.e. W3Schools, StackOverflow, Mozilla, etc.)
 
-TODO: list reference resources
+Just the professor "Introductory Interactivity JavaScript Snippets"! It was super helpful.
 
 
 ### Self-Reflection (Final Submission)
 > This was the first project in this class where you coded some JavaScript. What did you learn from this experience?
 
-TODO: self-reflection
+I learned that JavaScript is way less daunting than I initially thought. The snippets provided were extremely helpful because they let me focus on the web development and not get entrenched in coding syntax. I also learned that JavaScript is quite similar to Java, which I have used before, so I actually felt somewhat comfortable with it.
 
 
 > Take some time here to reflect on how much you've learned since you started this class. It's often easy to ignore our own progress. Take a moment and think about your accomplishments in this class. Hopefully you'll recognize that you've accomplished a lot and that you should be very proud of those accomplishments!
 
-TODO: self-reflection
+After project 2, I was still shaky on CSS principles. I was putting random CSS properties on everything and not sure how to really use flexboxes. Now, I am extremely comfortable with CSS, looking up documentation, and implementing concepts into my project. Additionally, interactivity came smoothly once nailing down these CSS and HTML skills. I feel like I have a really strong sense of the HTML and CSS fundamentals and design process. I hope to feel the same way about JavaScript soon!
