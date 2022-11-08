@@ -95,7 +95,7 @@ My proposed interactivity is the slideshow. This will add dynamic photos that ca
 > Pseudocode is not JavaScript. Please do not put JavaScript code here.
 
 ```
-When the #left-button is clicked, add .hidden to the current image and remove .hidden from the previous image in the list. When #right-button is clicked, or after a counter has reached n counts (n to be determined after testing), add .hidden to the current image and remove .hidden from the next image in the list.
+Add all #slides to a list variable. When the #prev-button is clicked, add .hidden to all images in the list and then remove .hidden from the (current index - 1)th image in the list. If the list index becomes out of bounds this way, instead, remove .hidden from the last image in the list. When the #next-button is clicked, or a counter has elapsed a certain number of counts, add .hidden to all images in the list and then remove .hidden from the (current index + 1)th image in the list. If the list index becomes out of bounds this way, instead, remove .hidden from the 0th image in the list.
 ```
 
 
@@ -112,7 +112,7 @@ The slideshow design is ambitious because it not only incorporates concepts cove
 > Explain how your design effectively uses affordances, visibility, feedback, and familiarity.
 > Write a large paragraph (4-6 sentences)
 
-My slideshow design contains significant uses of affordances, visibility, feedback, and familiarity. For affordances, the left and right button change color when hover over and also change the cursor type to indicate that there is a button to press. For visibility, the relevant parts of interactivity, my buttons with dark borders and green background visibily show the audience of potential interactivity. For feedback, there is obvious effect of a user's actions (or lack of action). By clicking on one of the buttons, the user can see that the image changes, but if they don't click, they will see that the slideshow is on a timer and will also change, eventually also finding that the slideshow loops through five images. The design is lastly familiar to my audience, the left and right buttons imply that the images are in order and user are familiar with this design on other slideshows to know that these buttons are previous and next slide buttons.
+My slideshow design contains significant uses of affordances, visibility, feedback, and familiarity. For affordances, the left and right button change color when hover over and also change the cursor type to indicate that there is a button to press. For visibility, the relevant parts of interactivity, my buttons with dark borders and green background visibily show the audience of potential interactivity. Visbility can also be seen when the slideshow changes pictures automatically. For feedback, there is obvious effect of a user's actions (or lack of action). By clicking on one of the buttons, the user can see that the image changes, but if they don't click, they will see that the slideshow is on a timer and will also change, eventually also finding that the slideshow loops through five images. The design is lastly familiar to my audience, the left and right buttons imply that the images are in order and user are familiar with this design on other slideshows to know that these buttons are previous and next slide buttons.
 
 
 ### Tell Us What to Grade (Final Submission)
@@ -140,7 +140,7 @@ Just the professor "Introductory Interactivity JavaScript Snippets"! It was supe
 ### Self-Reflection (Final Submission)
 > This was the first project in this class where you coded some JavaScript. What did you learn from this experience?
 
-I learned that JavaScript is way less daunting than I initially thought. The snippets provided were extremely helpful because they let me focus on the web development and not get entrenched in coding syntax. I also learned that JavaScript is quite similar to Java, which I have used before, so I actually felt somewhat comfortable with it.
+I learned that JavaScript is way less daunting than I initially thought. The snippets provided were extremely helpful because they let me focus on the web development and not get entrenched in coding syntax. I also learned that JavaScript is quite similar to Java, which I have used before, so I actually felt somewhat comfortable with it. I lastly learned that JQuery is crucial for making syntax easier on the coder.
 
 
 > Take some time here to reflect on how much you've learned since you started this class. It's often easy to ignore our own progress. Take a moment and think about your accomplishments in this class. Hopefully you'll recognize that you've accomplished a lot and that you should be very proud of those accomplishments!
