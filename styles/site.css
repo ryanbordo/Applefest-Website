@@ -44,6 +44,7 @@ picture, figure{
     flex-direction: column;
     flex: 1;
     flex-grow: 1;
+    margin-right: 40px;
 }
 header img{
     display: flex;
@@ -181,6 +182,7 @@ h5{
     background-color: white;
     border:black 1px solid;
 }
+
 @media screen and (min-width: 700px) {
     p, dd{
         font-size: 18px;
